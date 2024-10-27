@@ -1,0 +1,363 @@
+
+/* font google */
+/* font-family: 'Poppins', sans-serif; */
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); */
+
+
+
+
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --color: red;
+    --main-transition: all .5s;
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+
+}
+
+
+
+/* start drop all */
+.drop {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-top: 5px solid #000;
+    border-bottom: 5px solid #000;
+}
+
+.drop > .container {
+    min-height: 100vh;
+    position: relative;
+}
+
+/* .none {
+    display: none;
+} */
+
+
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start drop 1 */
+
+.drop-1 {
+    font-family: 'Poppins', sans-serif;
+    background: #e3f2fd;
+}
+
+
+.drop-1 .select-menu {
+    width: 380px;
+    margin: 150px auto;
+    transition: var(--main-transition);
+    -webkit-transition: var(--main-transition);
+    -moz-transition: var(--main-transition);
+    -ms-transition: var(--main-transition);
+    -o-transition: var(--main-transition);
+}
+
+.drop-1 .select-menu .select-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    min-height: 55px;
+    background: #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.drop-1 .select-menu .select-btn .sBtn-text {
+    text-transform: capitalize;
+}
+
+.drop-1 .select-menu .select-btn i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    width: 35px;
+    height: 35px;
+    font-size: 18px;
+    /* box-shadow: 0px 0px 10px 1px #e3f2fd; */
+    box-shadow: 0px 0px 5px 0px #000;
+    border-radius: 50%;
+    transition: var(--main-transition);
+    -webkit-transition: var(--main-transition);
+    -moz-transition: var(--main-transition);
+    -ms-transition: var(--main-transition);
+    -o-transition: var(--main-transition);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.drop-1 .select-menu.active .select-btn i {
+    transform: rotate(-180deg);
+    -webkit-transform: rotate(-180deg);
+    -moz-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    -o-transform: rotate(-180deg);
+}
+
+.drop-1 .select-menu .options {
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+    background: #fff;
+    box-shadow:  0 0 3px rgba(0, 0, 0, 0.1);
+    display: none;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.drop-1 .select-menu.active .options {
+    display: block;
+}
+
+.drop-1 .select-menu .options .option {
+    display: flex;
+    align-items: center;
+    height: 55px;
+    cursor: pointer;
+    padding: 0 16px;
+    background: #fff;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.drop-1 .select-menu .options .option:hover {
+    background: #f2f2f2;
+}
+
+.drop-1 .select-menu .options .option i {
+    font-size: 25px;
+    margin-right: 12px;
+}
+
+.drop-1 .select-menu .options .option:nth-child(1) i {
+    color: #171515;
+}
+
+.drop-1 .select-menu .options .option:nth-child(2) i {
+    color: #e1306c;
+}
+
+.drop-1 .select-menu .options .option:nth-child(3) i {
+    color: #0e76a8;
+}
+
+.drop-1 .select-menu .options .option:nth-child(4) i {
+    color: #4267b2;
+}
+
+.drop-1 .select-menu .options .option:nth-child(5) i {
+    color: #1da1f2;
+}
+
+.drop-1 .select-menu .options .option .option-text {
+    font-size: 18px;
+    color: #333;
+    text-transform: capitalize;
+}
+
+
+
+/* end drop 1 */
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start drop 2 */
+
+
+/* end drop 2 */
+
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start drop 3 */
+
+
+
+
+/* end drop 3 */
+
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start drop 4 */
+
+
+
+
+
+/* end drop 4 */
+
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start drop 5 */
+
+
+
+
+/* end drop 5 */
+
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start drop 6 */
+
+
+
+/* end drop 6 */
+
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start drop 7 */
+
+
+
+
+/* end drop 7 */
+
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start drop 8 */
+
+
+
+
+
+/* end drop 8 */
+
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start drop 9 */
+
+
+
+/* end drop 9 */
+
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start drop 10 */
+
+
+
+/* end drop 10 */
+
+
+/*  
+===============================================
+===============================================
+*/
+
+/* start drop 11 */
+
+
+
+
+/* end drop 11 */
+
+
+/*  
+===============================================
+===============================================
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
